@@ -4,8 +4,8 @@ import { Github, ExternalLink } from 'lucide-react'
 const projects = [
   {
     title: "Sanydressline",
-    description: "A full-stack web application built with Next.js",
-    image: "/placeholder.svg?height=200&width=400",
+    description: "A full-stack E-commerce website built with Next.js",
+    image: "/sany.png",
     tech: ["Next", "React", "PostgreSQL", "Tailwind", "Etc."],
     github: "https://github.com/aryacaesars/sanydressline",
     live: "https://sanydressline.my.id"
@@ -13,18 +13,18 @@ const projects = [
 {
   title: "Ciplusplus Team Picker",
   description: "A tools for my classmate to pick our team",
-  image: "/placeholder.svg?height=200&width=400",
+  image: "/ciplus.png",
   tech: ["Next.js", "Tailwind", "shadCN"],
   github: "https://github.com/aryacaesars/ciplusplus-team-picker",
   live: "https://cipluspluspicker.vercel.app/"
 },
 {
-  title: "Project 3",
-  description: "Real-time chat application",
-  image: "/placeholder.svg?height=200&width=400",
-  tech: ["React", "Node.js", "Socket.io"],
-  github: "#",
-  live: "#"
+  title: "TransformLab",
+  description: "3D modelling website using Three.js",
+  image: "/3d.png",
+  tech: ["HTML", "Tailwind", "Three.js"],
+  github: "https://github.com/aryacaesars/Project-Aljabar.git",
+  live: "https://project-aljabar.vercel.app"
 }
 ]
 
@@ -84,6 +84,17 @@ export default function ProjectsSection() {
       </Card>
     ))}
     </div>
+    <button className="bg-gradient-to-r from-indigo-900 to-indigo-800 text-white font-semibold py-2 px-4 rounded-lg mt-8 block mx-auto">
+    <a
+    href="https://github.com/aryacaesars"
+    target="_blank"
+    rel="noopener noreferrer"
+    className="block"
+    >
+    View More on GitHub
+    </a>
+    </button>
+
     </div>
     </section>
   )

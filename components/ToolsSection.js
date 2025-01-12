@@ -1,12 +1,12 @@
 const tools = [
-  { name: "React", image: "/images/React.png" },
-{ name: "Next", image: "/images/Next.png" },
-{ name: "MySQL", image: "/images/mysql.png" },
-{ name: "Tailwind", image: "/images/Tailwind.png" },
-{ name: "GitHub", image: "/images/git.png" },
-{ name: "VS Code", image: "/images/vscode.png" },
-{ name: "GPT", image: "/images/GPT.png" },
-{ name: "V0", image: "/images/V0.png" }
+  { name: "React", image: "/react.png" },
+{ name: "Next", image: "/next.png" },
+{ name: "MySQL", image: "/mysql.png" },
+{ name: "Tailwind", image: "/Tailwind.png" },
+{ name: "GitHub", image: "/git.png" },
+{ name: "VS Code", image: "/vscode.png" },
+{ name: "GPT", image: "/GPT.png" },
+{ name: "V0", image: "/V0.png" }
 ];
 
 export default function ToolsSection() {

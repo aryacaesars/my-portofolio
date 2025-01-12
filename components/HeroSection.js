@@ -18,7 +18,7 @@ export default function HeroSection() {
     {/* Text Content Section */}
     <div className="flex flex-col items-start max-w-2xl">
     <h1 className="text-5xl md:text-7xl font-bold mb-4 animate-fade-in">
-    <span className="bg-gradient-to-r from-blue-500 via-purple-500 to-pink-500 text-transparent bg-clip-text">
+    <span className="bg-gradient-to-r from-blue-500 to-purple-700 text-transparent bg-clip-text">
     Arya Caesar
     </span>
     </h1>
@@ -43,7 +43,7 @@ export default function HeroSection() {
     <div className="flex gap-4 animate-fade-in-delay-2">
     <Button
     variant="default"
-    className="bg-blue-600 hover:bg-blue-900 text-white px-8"
+    className="bg-gradient-to-r from-indigo-900 to-indigo-800 hover:bg-gray-600 text-white px-8"
     asChild
     >
     <a href="#projects">View Projects</a>

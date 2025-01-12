@@ -1,6 +1,6 @@
 'use client'
 
-import { Home, User, Briefcase, Code, Wrench, Mail, ChevronLeft } from 'lucide-react'
+import { Home, User, Briefcase, Code, Wrench, Mail, ChevronLeft, Linkedin, Github, Instagram, Phone } from 'lucide-react'
 import { usePathname } from 'next/navigation'
 import { useSidebar } from '../contexts/SidebarContext'
 
@@ -46,7 +46,7 @@ export default function Sidebar() {
       onClick={toggleSidebar}
       className="absolute -left-3 top-20 w-6 h-6 bg-indigo-600 rounded-full flex items-center justify-center text-white hover:bg-indigo-700 transition-colors"
       >
-      <ChevronLeft className={`w-4 h-4 transition-transform ${isOpen ? 'rotate-180' : ''}`} />
+      <ChevronLeft className={`w-4 h-4 transition-all duration-300 ease-in-out ${isOpen ? 'rotate-180' : ''}`} />
       </button>
 
       {/* Navigation */}
@@ -78,6 +78,21 @@ export default function Sidebar() {
       })}
       </ul>
       </nav>
+        {/* Social Media Icons */}
+      <div className={`mt-auto p-4 flex justify-center ${isOpen ? 'space-x-4' : 'space-y-4 flex-col items-center'}`}>
+      <a href="https://www.linkedin.com/in/arya-caesars-295284302/" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+      <Linkedin className="w-5 h-5" />
+      </a>
+      <a href="https://github.com/aryacaesars" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+      <Github className="w-5 h-5" />
+      </a>
+      <a href="https://instagram.com/aryaacaesar" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+      <Instagram className="w-5 h-5" />
+      </a>
+      <a href="https://wa.me/6289524396489" target="_blank" rel="noopener noreferrer" className="text-gray-400 hover:text-white transition-colors">
+      <Phone className="w-5 h-5" />
+      </a>
+      </div>
       </div>
       </aside>
   )

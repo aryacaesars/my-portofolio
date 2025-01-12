@@ -11,7 +11,7 @@ export default function ContactSection() {
 
   const handleSubmit = (e) => {
     e.preventDefault()
-    window.location.href = `mailto:arya.caesar@example.com?subject=Portfolio Contact&body=${encodeURIComponent(message)}`
+    window.location.href = `mailto:aryacaesars@gmai.com?subject=Portfolio Contact&body=${encodeURIComponent(message)}`
   }
 
   return (
