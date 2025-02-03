@@ -7,7 +7,7 @@ export default function AboutSection() {
         </h2>
         <div className="space-y-6 text-gray-300">
         <p>
-        Hi! I'm Arya Caesar, a passionate Informatics student eager to learn, grow, and explore the world of technology. While I’m not an expert, I deeply enjoy the process of discovering new skills and solving problems through creative and practical solutions.
+        Hi! I&apos;m Arya Caesar, a passionate Informatics student eager to learn, grow, and explore the world of technology. While I&apos;m not an expert, I deeply enjoy the process of discovering new skills and solving problems through creative and practical solutions.
         </p>
         <p>
         My journey in tech has led me to dive into web development, where I am honing my skills in building functional and visually appealing websites. I’m open to collaborating on exciting projects, learning alongside others, and turning ideas into impactful digital experiences.
