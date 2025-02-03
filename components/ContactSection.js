@@ -63,12 +63,12 @@ export default function ContactSection() {
     <div className="w-full md:w-1/2 mt-12 md:mt-0 md:pl-16">
     <h3 className="text-2xl font-semibold text-white mb-4">Interested in Collaborating?</h3>
     <p className="text-gray-300 mb-6">
-    If you're working on an exciting project and need a developer to bring your vision to life, let's connect!
-    I'm always open to exploring new opportunities and collaborating on innovative web development projects.
-    Reach out and let's discuss how we can create something great together.
+    If you were working on an exciting project and need a developer to bring your vision to life, let&apos;s connect!
+    I&apos;m always open to exploring new opportunities and collaborating on innovative web development projects.
+    Reach out and let&apos;s discuss how we can create something great together.
     </p>
     <p className="text-gray-400">
-    I’m passionate about coding, learning, and growing with others, and would love to be a part of your next big idea!
+    I&apos;m passionate about coding, learning, and growing with others, and would love to be a part of your next big idea!
     </p>
     </div>
     </div>
